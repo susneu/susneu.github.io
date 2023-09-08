@@ -1,11 +1,222 @@
-<!DOCUMENTTYPE>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title> Website Susanne Neumann </title>
-  </head>
-</html>
-<body>
-  <p> Diese Webseite befindet sich im Aufbau.</p>
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Susanne Neumann &nbsp;– From Codex to Code</title>
+  <link rel="icon" href="images/icon.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+        crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/all.min.css">
+</head>
+
+<body class="main">
+  <nav class="navbar navbar-expand-sm bg-body-transparent" id="nav-bar">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1">Susanne Neumann</span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" aria-current="page" href="#">CV</a>
+          </li>
+          <!--<li class="nav-item">
+            <a class="nav-link" href="#">PUBLICATIONS</a>
+          </li>-->
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">PROJECTS</a>
+          </li>
+          <!--<li class="nav-item">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>-->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ======================== HEADER SECTION ======================== -->
+
+  <section id="banner">
+    <div class="banner">
+      <h1 class="display-1">From Codex to Code</h1>
+      <h6 class="display-5">Unveiling Antiquity</h6>
+      <div class="banner-btn d-grid gap-1 d-sm-block mt-3 mt-sm-5">
+        <a class="btn btn-outline-light btn-lg d-none d-sm-inline-block" href="#cv" role="button">CV</a>
+        <a class="btn btn-outline-light d-inline-block d-sm-none" href="#cv" role="button">CV</a>
+        <!--<a class="btn btn-outline-light btn-lg d-none d-sm-inline-block" href="#ueber_teilprojekte" role="button">PUBLICATIONS</a>
+        <a class="btn btn-outline-light d-inline-block d-sm-none" href="#ueber_teilprojekte" role="button">PUBLICATIONS</a>-->
+        <a class="btn btn-outline-light btn-lg d-none d-sm-inline-block" href="#projects" role="button">PROJECTS</a>
+        <a class="btn btn-outline-light d-inline-block d-sm-none" href="#projects" role="button">PROJECTS</a>
+      </div>
+
+
+
+    </div>
+  </section>
+
+  <!-- =================== CV ====================== -->
+
+  <section id="cv">
+
+    <div class="container-flex cv">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="sidebar sticky-top">
+            <div class="text-center">
+              <img src="images/profile-img.png" class="profile-img" alt="Photo of Susanne Neumann">
+              <h2> Susanne Neumann </h2>
+            </div>
+            <div class="d-none d-sm-inline-block">
+              <nav aria-label="cv navigation">
+                <ul>
+                  <li>
+                    <a class="btn btn-outline-light btn" href="#ed" role="button">Education</a>
+                  </li>
+                  <li>
+                    <a class="btn btn-outline-light btn" href="#ex" role="button">Work Experiences</a>
+                  </li>
+                  <li>
+                    <a class="btn btn-outline-light btn" href="#skill" role="button">Skills</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9 col-11">
+          <div class="entry" id="ed">
+            <div class="center-line d-none d-sm-inline-block"></div>
+            <div class="icon ed d-none d-sm-inline"><i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-3">
+              </div>
+              <div class="col-6">
+                <div class="dummy"></div>
+                <h3>Eductation</h3>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-3">
+                <p class="year">2022</p>
+              </div>
+              <div class="col-6">
+                <p><b>Linguistics, Literature and Cultural Studies, B.&nbsp;A.</b></p>
+                <p>Bachelor Thesis: Wenn Cupidos Vektor trifft - Eine Untersuchung von Vektor&shy;repräsentationen der lateinischen Sprache am Beispiel der Liebeselegie </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="entry" id="ex">
+            <div class="center-line d-none d-sm-inline-block"></div>
+            <div class="icon ex d-none d-sm-inline"><i class="fa-solid fa-briefcase"></i>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-3">
+              </div>
+              <div class="col-6">
+                <div class="dummy"></div>
+                <h3>Work Experiences </h3>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-3">
+                <p class="year">2021&nbsp;–2022</p>
+              </div>
+              <div class="col-6">
+                <p><b>Student Assistant</b></p>
+                <p>Student assistant at the Institute of Classical Philology at the University of Leipzig in a project by PD&nbsp;Dr.&nbsp;Ute Tischer</p>
+              </div>
+            </div>
+            <div class="row justify-content-center mt-4">
+              <div class="col-3">
+                <p class="year">since 2017 </p>
+              </div>
+              <div class="col-6">
+                <p><b>Student Assistant and Tutor</b></p>
+                <p>at the Chair of Economic and Social History at TU&nbsp;Dresden under Prof.&nbsp;Dr.&nbsp;Susanne Schötz</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="entry" id="skill">
+            <div class="center-line d-none d-sm-inline-block"></div>
+            <div class="icon skill d-none d-sm-inline"><i class="fa-solid fa-wrench"></i>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-3">
+              </div>
+              <div class="col-6">
+                <div class="dummy"></div>
+                <h3>Skills</h3>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-3">
+                <p class="year">Lan&shy;guages</p>
+              </div>
+              <div class="col-6">
+                <p><b>German:</b> native</p>
+                <p><b>English:</b> fluent</p>
+              </div>
+            </div>
+            <div class="row justify-content-center mt-4">
+              <div class="col-3">
+                <p class="year">Technical Skills</p>
+              </div>
+              <div class="col-6">
+                <p><b>Coding and Programming:</b> Pyhton, HTML, CSS</p>
+                <p><b>Data Anaylsis:</b> Natural Language Processing</p>
+                <p><b>Technical Writing:</b> Microsoft Office, LaTeX</p>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- ====================== Projects ===================== -->
+
+  <section id="projects">
+    <div class="container-flex projects">
+      <div class="row">
+        <div class="col-3 text-center">
+          <h2> Current Projects </h2>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"><b>Website</b> "Aus, nach und innerhalb von Deutschland migrierte Frauen (1918&nbsp;–2018)"</h5>
+              <p class="card-text">As part of the project "Aus, nach und innerhalb von Deutschland migrierte Frauen (1918&nbsp;–2018)" under the direction of Dr.&nbsp;Francesca Weil, I created a website.</p>
+              <div class="text-center">
+              <a href="#" class="btn btn-primary">Website</a>
+              <a href="#" class="btn btn-primary">Code</a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
 </body>
+
 </html>

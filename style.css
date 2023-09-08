@@ -1,0 +1,292 @@
+* {
+  padding: 0;
+  max-width: 100%;
+}
+
+
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  background-color: #000 !important;
+  padding: 0 !important;
+}
+
+.navbar-brand {
+  color: #ffff !important;
+}
+
+.navbar-nav>li {
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+
+.navbar-nav>li a {
+  color: #ffff !important;
+  font-weight: 500;
+}
+.navbar-nav>li a:active{
+  background-color: #F0F0F2;
+}
+
+
+/*--------------------HEADER SECTION----------------------------*/
+.banner {
+  height: 100vh;
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #79F2E6;
+  text-align: center;
+}
+
+.banner h1 {
+  padding-top: 15%;
+  letter-spacing: 4px;
+  font-weight: 400;
+  margin: 0 auto 0;
+  overflow-wrap: break-word;
+  width: 70%;
+}
+
+.banner h6 {
+  margin-top: 0.4em;
+}
+
+.banner-btn{
+  margin: auto;
+  position:relative;
+  flex: 20%;
+}
+
+.banner .btn{
+  padding: 0.5em;
+  margin: 0.3em 0;
+  border: 1px solid rgba(121, 242, 230, 0);
+  transition:all .4s ease-in-out;
+  overflow:hidden;
+  position:relative;
+  background:rgba(0, 0, 0, .27);
+  text-transform:uppercase;
+  color:white;
+  font-weight:700;
+  letter-spacing:1px;
+  border: 1px solid rgba(121, 242, 230, 1);
+  border-radius: 0;
+  outline:none;
+}
+
+.banner .btn:before{
+  content:" ";
+  display:block;
+  width:200px;
+  height:80px;
+  background:rgba(121, 242, 230, .4);
+  position:absolute;
+  top:-10px;
+  left:-250px;
+  transform:rotate(-45deg);
+  transition:all .4s ease-in-out;
+}
+
+.banner .btn:hover:before{
+  margin-left:600%;
+}
+
+.banner .btn:hover {
+  border: 1px solid rgba(121, 242, 230, 1);
+  color: white;
+  background:rgba(0, 0, 0, .27);
+
+}
+
+
+.banner-btn .d-inline-block {
+  margin: 0 auto;
+}
+/*-------------- CV ---------------------------------*/
+
+.cv {
+  background-color: #000;
+  color: #ffff;
+}
+
+.dummy::before {  /*Dummy für bessere Position beim Verlinken der Fußnoten*/
+  content: "";
+  display: block;
+  height: 4em;
+  margin-top: -4em;
+  visibility: hidden;
+  pointer-events: none;
+}
+.sidebar {
+  margin-left: 1em;
+  color: #79F2E6;
+  padding-top: 3em;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar .nav{
+  margin: 0 20px 40px;
+  position:relative;
+  max-width: 200px;
+  min-width: 150px;
+  flex: 20%;
+}
+
+.sidebar .btn{
+  padding: 0.2em;
+  margin: 0.3em 0;
+  border: 1px solid rgba(121, 242, 230, 0);
+  transition:all .4s ease-in-out;
+  overflow:hidden;
+  position:relative;
+  background:rgba(0, 0, 0, .27);
+  text-transform:uppercase;
+  color:white;
+  font-weight:700;
+  letter-spacing:1px;
+  border: 1px solid rgba(121, 242, 230, 1);
+  border-radius: 0;
+  font-size:15px;
+  outline:none;
+}
+
+.sidebar .btn:before{
+  content:" ";
+  display:block;
+  width:200px;
+  height:80px;
+  background:rgba(121, 242, 230, .4);
+  position:absolute;
+  top:-10px;
+  left:-250px;
+  transform:rotate(-45deg);
+  transition:all .4s ease-in-out;
+}
+
+.sidebar .btn:hover:before{
+  margin-left:600%;
+}
+
+.sidebar .btn:hover {
+  border: 1px solid rgba(121, 242, 230, 1);
+  color: white;
+  background:rgba(0, 0, 0, .27);
+
+}
+
+.profile-img{
+  border: 3px solid rgba(121, 242, 230, 1);
+  border-radius: 50%;
+  max-width: 250px;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+.cv h3 {
+  color: #79F2E6;
+  margin-top: 1em;
+}
+
+.year{
+  padding-right: 4em;
+  font-weight: bold;
+}
+
+
+.entry {
+  position: relative;
+  margin-bottom: 4em;
+}
+
+.center-line {
+  position: absolute;
+  height: 80%;
+  width: 4px;
+  background: #79F2E6;
+  top: 2em;
+  left: 27%;
+}
+
+.icon i{
+  position: relative;
+  color: #000;
+  left: 26%;
+  top: 3em;
+  border-radius: 50%;
+  background-color: #79F2E6;
+  font-size: large;
+  padding:  0.7%;
+  margin-left: -0.2em;
+}
+
+/*------------- PROJECTS ---------------*/
+
+.projects{
+  background-color: #000;
+  padding-top: 10em;
+  padding-bottom: 10em;
+}
+
+.projects h2{
+  color: #79F2E6;
+}
+
+.projects .card {
+  background-color: #000;
+  color: #ffff;
+  border-color: #184059;
+  border-radius: 0;
+  margin-top: 5em;
+}
+
+
+.projects .btn{
+  padding: 0.4em;
+  margin: 0.3em;
+  border: 1px solid rgba(121, 242, 230, 0);
+  transition:all .4s ease-in-out;
+  overflow:hidden;
+  position:relative;
+  background:rgba(0, 0, 0, .27);
+  text-transform:uppercase;
+  color:white;
+  font-weight:700;
+  letter-spacing:1px;
+  border: 1px solid rgba(121, 242, 230, 1);
+  border-radius: 0;
+  font-size:15px;
+  outline:none;
+}
+
+.projects .btn:before{
+  content:" ";
+  display:block;
+  width:200px;
+  height:80px;
+  background:rgba(121, 242, 230, .4);
+  position:absolute;
+  top:-10px;
+  left:-250px;
+  transform:rotate(-45deg);
+  transition:all .4s ease-in-out;
+}
+
+.projects .btn:hover:before{
+  margin-left:600%;
+}
+
+.projects .btn:hover {
+  border: 1px solid rgba(121, 242, 230, 1);
+  color: white;
+  background:rgba(0, 0, 0, .27);
+
+}
